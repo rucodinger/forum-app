@@ -1,0 +1,32 @@
+.btn {
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.btn.no-padding {
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.btn--ghost {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #111;
+}
+
+.btn--ghost:hover {
+    background-color: #f2f2f2;
+}
+
+.btn--primary {
+    /*background-color: #222;*/
+    background-color: #333;
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background-color: #000;
+}

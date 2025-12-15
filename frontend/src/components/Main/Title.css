@@ -1,0 +1,25 @@
+.title__container {
+    min-height: 100vh;
+    /*color: #242424;*/
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.title__container h3 {
+    font-size: 20px;
+    font-weight: 400;
+    /*color: #666;*/
+    color: #fff;
+}

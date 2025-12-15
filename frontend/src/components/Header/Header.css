@@ -1,0 +1,71 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*background: #242424;*/
+    z-index: 1000;
+}
+
+.header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+/* ЛЕВАЯ ЗОНА */
+.header__logo {
+    flex: 0 0 auto;
+    width: 48px;
+    height: 48px;
+}
+
+/* ЦЕНТР */
+.header__nav {
+    display: flex;
+    gap: 32px;
+
+    margin: 0 auto;
+}
+
+/* ПРАВАЯ ЗОНА */
+.header__auth {
+    display: flex;
+    gap: 12px;
+}
+
+.header__nav a {
+    padding: 8px 16px;
+    border-radius: 12px;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.header__nav a:hover {
+    background-color: #f2f2f2;
+    color: #111;
+}
+
+.header__nav a.active {
+    background-color: #f2f2f2;
+    color: #111;
+}
+
+/* КНОПКИ */
+.header__actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* ОТСТУП ДЛЯ КОНТЕНТА (чтобы не уезжал под header) */
+main {
+    padding-top: 70px;
+}
