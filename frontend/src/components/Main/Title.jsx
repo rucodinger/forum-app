@@ -7,7 +7,9 @@ export default function Title() {
             <h1>Liberty social media</h1>
             <h3>Here you can publish posts on absolutely free topics - your opinion should not depend on anyone else's.</h3>
 
-            <Button type="primary" noPadding={true}>Get started</Button>
+            <Button type="primary" noPadding={true} onclick={() => {
+                window.location.assign("/register");
+            }} >Get started</Button>
         </section>
     );
 }
